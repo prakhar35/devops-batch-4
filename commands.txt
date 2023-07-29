@@ -4,3 +4,7 @@ git remote -v
 git pull origin main
 git push origin main
 git fetch origin main
+git remote set -url
+git remote add <name> <new url>
+git remote add <name> <url with token>
+git push origin_new<new name> main
